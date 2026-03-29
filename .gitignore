@@ -2,8 +2,8 @@
 node_modules/
 
 # Reportes de pruebas (cambian cada vez que ejecutas)
-reports/
-!reports/.gitignore
+reportes/
+!reportes/.gitignore
 
 # Archivos JSON de reportes
 *.json

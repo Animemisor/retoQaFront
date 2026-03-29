@@ -13,22 +13,22 @@ Como cliente de Sauce Demo, quiero poder iniciar sesión, agregar productos al c
 - **Page Object Model** - Patrón de diseño
 
 ## 📁 Estructura del Proyecto
-saucedemo-automatizacion/
-├── features/
-│ ├── inicio-sesion.feature # Escenarios de login
-│ └── flujo-compra.feature # Escenarios de compra
-├── pages/
-│ ├── PaginaBase.js # Clase base con métodos comunes
-│ ├── PaginaInicioSesion.js # Page Object del login
-│ ├── PaginaProductos.js # Page Object de productos
-│ ├── PaginaCarrito.js # Page Object del carrito
-│ └── PaginaPago.js # Page Object del pago
-├── step_definitions/
-│ └── pasos_comunes.js # Implementación de steps
-├── reportes/ # Reportes generados
-├── package.json
-├── cucumber.js
-└── README.md
+📦 saucedemo-automatizacion
+┣ 📂 features
+┃ ┣ 📜 inicio-sesion.feature # Escenarios de login
+┃ ┗ 📜 flujo-compra.feature # Escenarios de compra
+┣ 📂 pages
+┃ ┣ 📜 PaginaBase.js # Clase base con métodos comunes
+┃ ┣ 📜 PaginaInicioSesion.js # Page Object del login
+┃ ┣ 📜 PaginaProductos.js # Page Object de productos
+┃ ┣ 📜 PaginaCarrito.js # Page Object del carrito
+┃ ┗ 📜 PaginaPago.js # Page Object del pago
+┣ 📂 step_definitions
+┃ ┗ 📜 pasos_comunes.js # Implementación de steps
+┣ 📂 reportes # Reportes generados
+┣ 📜 package.json # Dependencias del proyecto
+┣ 📜 cucumber.js # Configuración de Cucumber
+┗ 📜 README.md # Documentación del proyecto
 
 
 ## 🔧 Prerrequisitos

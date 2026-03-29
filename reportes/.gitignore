@@ -1,4 +1,0 @@
-# Ignorar todos los archivos dentro de la carpeta reports
-*
-# Excepto este archivo .gitignore
-!.gitignore
